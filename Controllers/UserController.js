@@ -76,7 +76,7 @@ const UserController = {
         html: `
         <p>Hello ${firstName},</p>
         <p>Thank you for registering on our website. Please click the following link to activate your account:</p>
-        <a href="https://lucky-entremet-b7a31f.netlify.app//activateAccount?token=${activationToken}">Activate Account</a>
+        <a href="https://main--gorgeous-klepon-f5ce80.netlify.app/activateAccount?token=${activationToken}">Activate Account</a>
         `,
       };
 
@@ -183,7 +183,7 @@ const UserController = {
         html: `
         <p>Hello ${user.firstName},</p>
         <p>You have requested to reset your password. Please click the following link to reset your password:</p>
-        <a href="https://lucky-entremet-b7a31f.netlify.app/resetPassword">Reset Password</a>
+        <a href="https://main--gorgeous-klepon-f5ce80.netlify.app/resetPassword">Reset Password</a>
         <p>If you did not request this, please ignore this email.</p>
         resettoken:${resetToken}
         `,
